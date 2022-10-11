@@ -3,99 +3,18 @@
     padding: 0;
     box-sizing: border;
 }
-.NavLi{
-    list-style: none;
-    padding-left: 4%;
-    color: white;
-    
-}
-.NavUl{
-    display: flex;
-    align-items: center;
-    padding-left: 38%;
-    height: 11vh;
-}
-.border_en{
-    border: 2px solid ;
-}
-header{
+
+.navbar{
+    /* height: 14vh; */
     background-color: #232323;
-    /* border: 2px solid; */
-    height: 12vh;
 }
-nav{
-    height: 12vh;
+.container-fluid{
+    padding-left: 40%;
 }
-i{
-    color: white;
-    /* margin-left: 0.2%; */
-}
-.NavLi a{
-    text-decoration: none;
+.dropdown-menu{
+    background-color: #232323;
     color: white;
 }
-.abt_us_sub ul li{
-    list-style: none;
-    padding: 6%;
+.dropdown-item{
+    color: white;
 }
-.abt_us_sub{
-    display: none;
-    /* display: block;
-    position: absolute;
-    background-color: #232323;
-    padding: 2%;
-    margin-left: -8%; */
-    text-align: center;
-}
-#abt_us:hover .abt_us_sub{
-    display: block;
-    position: absolute;
-    background-color: #232323;
-    padding: 2%;
-    margin-left: -8%;
-}
-
-
-.media_sub ul li{
-    list-style: none;
-    padding: 6%;
-}
-.media_sub{
-    display: none;
-    /* display: block;
-    position: absolute;
-    background-color: #232323;
-    padding: 2%;
-    margin-left: -8%; */
-    text-align: center;
-}
-#media:hover .media_sub{
-    display: block;
-    position: absolute;
-    background-color: #232323;
-    padding: 2%;
-    margin-left: -1%;
-}
-
-.cars_sub ul li{
-    list-style: none;
-    padding: 6%;
-}
-.cars_sub{
-    display: none;
-    /* display: block;
-    position: absolute;
-    background-color: #232323;
-    padding: 2%;
-    margin-left: -5%;
-    text-align: center; */
-}
-#cars:hover .cars_sub{
-    display: block;
-    position: absolute;
-    background-color: #232323;
-    padding: 2%;
-    margin-left: -5%;
-    text-align: center;
-}
-
