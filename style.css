@@ -8,8 +8,9 @@
     /* height: 14vh; */
     background-color: #232323;
 }
-.container-fluid{
-    padding-left: 40%;
+.container-fluid {
+    /* padding-right: 3px; */
+    padding-left: 33%;
 }
 .dropdown-menu{
     background-color: #232323;
@@ -17,4 +18,26 @@
 }
 .dropdown-item{
     color: white;
+}
+
+.nav-item {
+    /* padding-left: 3%; */
+    margin: 0 8px 0 14px;
+}
+/* .abt_us:hover, .cars:hover{
+    color: orange;
+    background-color: white;
+    color: #232323;
+} */
+.nav-item:hover{
+    background-color: white;
+    color: #232323;
+}
+
+.nav-item:hover .nav-link{
+    color: #232323;
+}
+
+.nav-link{
+    color:white;
 }
