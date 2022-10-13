@@ -108,6 +108,9 @@ nav+h1+h3{
     color: white;
     
 }
+#downA{
+    margin: auto;
+}
 #down i{
     animation: movedown 2s ease-out infinite;
     
