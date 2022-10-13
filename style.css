@@ -22,7 +22,7 @@
 
 .nav-item {
     /* padding-left: 3%; */
-    margin: 0 8px 0 14px;
+    margin: 0 4px 0 14px;
 }
 /* .abt_us:hover, .cars:hover{
     color: orange;
@@ -43,7 +43,8 @@
 }
 body{
     background-color: black;
-    color: white;
+    /* color: white; */
+    font-family: 'Quicksand', sans-serif;
 }
 
 nav::before{
@@ -87,6 +88,15 @@ nav+h1+h3{
     font-size: 1.2em;
     
 }
+
+#homePageBtn:hover{
+    background-color: #ff255f;
+}
+
+#homePageBtn:active{
+    background-color: #e92055;
+}
+
 #down {
     border-radius: 100%;
     background-color: rgb(70, 70, 70);
@@ -119,5 +129,51 @@ nav+h1+h3{
         margin-top: 0px;
         height: 0px;
     }
+
     
+}
+
+.threeBoxes {
+    margin: 3% 12%;
+    padding: 3% 0%;
+    /* text-align: center; */
+}
+
+#card1h, #card2h, #card3h{
+    font-size: 5em;
+}
+
+#card1h2, #card2h2, #card3h2{
+    font-size: 1.5em;
+}
+
+#card1p {
+    padding-top: 32%;
+    padding: 21% 24% 0% 3%;
+}
+#card1{
+    padding-top: 10%;
+    padding-bottom: 39%;
+}
+
+#card2p {
+    padding-top: 32%;
+    padding: 21% 24% 0% 3%;
+}
+#card2{
+    padding-top: 10%;
+    padding-bottom: 37%;
+}
+
+#card3p {
+    padding-top: 32%;
+    padding: 21% 24% 0% 3%;
+}
+#card3{
+    padding-top: 10%;
+    padding-bottom: 16%;
+}
+
+#page2{
+    background-color: #232323;
 }
