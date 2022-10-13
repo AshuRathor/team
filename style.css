@@ -7,6 +7,7 @@
 .navbar{
     /* height: 14vh; */
     background-color: #232323;
+    font-size: 0.8em;
 }
 .container-fluid {
     /* padding-right: 3px; */
@@ -22,7 +23,7 @@
 
 .nav-item {
     /* padding-left: 3%; */
-    margin: 0 4px 0 14px;
+    margin: 0 -23px 0 14px;
 }
 /* .abt_us:hover, .cars:hover{
     color: orange;
@@ -40,6 +41,7 @@
 
 .nav-link{
     color:white;
+    width: 158px;
 }
 body{
     background-color: black;
@@ -96,6 +98,70 @@ nav+h1+h3{
 #homePageBtn:active{
     background-color: #e92055;
 }
+.navbar-brand img{
+    width: 30%;
+}
+
+.navbar-brand{
+    margin-left: -42%;
+    transition: all 0.2s ease-out;
+    display: flex;
+}
+
+.navbar-brand h1 {
+    font-size: 0.7em;
+    /* position: absolute; */
+    top: 63%;
+    left: 16%;
+    padding-top: 11%;
+    /* padding-right: 12px; */
+}
+
+
+
+#homeItem {
+    margin-right: 0px;
+}
+#homeLink {
+    width: 79px;
+}
+
+#abt_usItem {
+    margin: 0px 0px;
+}
+#abt_usLink{
+    width: 120px;
+}
+
+#mediaItem {
+    margin: 0px 8px;
+}
+#mediaLink{
+    width:80px;
+}
+
+#carsLink{
+    width: 80px;
+}
+#carsItem{
+    margin: 0px 0px;
+}
+
+#formula-studentItem{
+    margin-right: -13px;
+}
+#formula-studentLink{
+    width: 155px;
+}
+
+#sponsorsItem{
+    margin-right: 22px;
+}
+#sponsorsLink{
+    width:102px;
+}
+
+
 
 #down {
     border-radius: 100%;
