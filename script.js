@@ -31,3 +31,33 @@ document.querySelector(".navbar-brand").addEventListener("mouseout", function ()
 
 })
 
+// document.querySelector(".navbar ").addEventListener("scroll", function () {
+//     document.querySelector(".navbar").style.opacity = "0.8"
+//     document.querySelector(".navbar").classList.toggle("sticky-top", window.scrollY>0)
+// })
+
+function reached() {
+    document.querySelector(".navbar").style.opacity = "0.9"
+    // document.querySelector(".navbar").classList.add("sticky-top")
+}
+function reachedBack() {
+    document.querySelector(".navbar").style.opacity = "1"
+    // document.querySelector(".navbar").classList.remove("sticky-top")
+}
+
+const observer = new IntersectionObserver(
+    (entries) =>{
+        const ent = entries[0]
+        console.log(ent)
+        ent.isIntersecting === false
+        ?reached()
+        :reachedBack()
+    },
+    {
+        root: null,
+        rootMargin:"-180px",
+        threshold:  0,
+    }
+);
+observer.observe(document.querySelector(".h1tag"))
+
