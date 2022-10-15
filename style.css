@@ -284,6 +284,9 @@ nav+h1+h3{
     font-size: 5em;
 }
 
+#textOfPage2 img{
+    width: 60%;
+}
 .footer{
     color: white;
     background-color: #111 !important;
@@ -300,6 +303,7 @@ nav+h1+h3{
 }
 #address{
     height: 26%;
+    width: 42%;
 }
 #feedback {
     width: 50%;
