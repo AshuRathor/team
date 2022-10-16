@@ -1,0 +1,38 @@
+nav+h1+h3 {
+    font-size: 1.5em;
+}
+
+
+
+
+#frontFooter1 {
+    width: 49%;
+    padding: 1% 7% 0% 8%;
+    font-size: 0.8em;
+    /* text-align: center; */
+    margin: auto;
+}
+
+
+#imgJpeg {
+    width: 90%;
+    padding-bottom: 2%;
+    height: 100%;
+    padding-left: 0%;
+}
+
+#paraUl {
+    padding: 8% 0% 22% 17%;
+}
+
+.para {
+    font-size: 1.6em;
+    width: 88%;
+}
+
+.container {
+    padding-left: 11%;
+}
+#heading{
+    font-size: 1em;
+}

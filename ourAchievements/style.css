@@ -84,10 +84,7 @@ nav+h1+h3{
     /* padding-right: 12px; */
 }
 
-h2{
-    text-align: center;
-    font-weight: bold;
-}
+
 
 #homeItem {
     margin-right: 0px;
@@ -194,87 +191,38 @@ h2{
     color: white;
 }
 
-#btn {
-    background-color: transparent;
-    border: 3px solid #232323;
-    margin-bottom: 40px;
-    padding: 1% 2.8%;
-    border-radius: 30px;
-    transition: all 0.3s ease-out;
-    margin: auto;
+
+
+.img {
+    width: 54%;
+    padding: 3% 6%;
 }
 
-#btn:hover {
-    background-color: #232323;
-    color: white;
-   
-}
-nav+h1{
-    color: #232323;
+#heading{    COLOR: #232323;
+    font-size: 2em;
 }
 
-#btnDiv{
+.container{
     display: flex;
+    flex-wrap: wrap-reverse;
 }
 
-#paraDiv{
-    text-align: center;
-    font-size: 1.5em;
-}
-#paraDiv p{
-    padding: 3% 10%;
-}
-#clgName img {
-    width: 15%;
-    margin: 59px auto;
+#paraUl {
+    padding: 42% 0% 22% 17%;
 }
 
-/* #xps {
+.para {
+    font-size: 1.6em;
     width: 30%;
 }
-#solidworks{
-    width: 30%;
-}
-#ktm {
-    width: 30%;
-}
-#chasis{
-    width: 30%;
-}
-#burnout{
-    width: 30%;
-}
-#ansys{
-    width: 40%;
-}
-#asap {
-    width: 29%;
-}
-#matlab{
-    width: 35%;
-}
-#stubborn{
-    width: 28%;
-}
-#monster{
-    width: 30%;
-}
-#ketto{
-    width: 35%;
-}*/
-#altair{
-    width: 55%;
-} 
-
-.sponsors{
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
-
-}
-
-.sponsors img{
-    margin:3%  auto;
-    padding: 0% 9%;
-    width: 40%;
+#imgJpeg {
+    /* min-width: 50%; */
+    /* max-width: 300; */
+    padding-left: 17%;
+    /* padding-right: 15%; */
+    padding-bottom: 5%;
+    padding-top: 5%;
+    /* border-radius: 154px; */
+    width: 633px;
+    height: 100%;
 }

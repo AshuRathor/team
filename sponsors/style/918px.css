@@ -1,0 +1,42 @@
+nav+h1+h3 {
+    font-size: 1.5em;
+}
+
+
+
+
+#frontFooter1 {
+    width: 49%;
+    padding: 1% 7% 0% 8%;
+    font-size: 0.6em;
+    /* text-align: center; */
+    margin: auto;
+}
+
+.sponsors img {
+    margin: 9% auto;
+    /* padding: 1% 0% 0% 0%; */
+    width: 65%;
+    padding: 0% 12%;
+}
+
+#altair{
+    width: 65%;
+}
+
+#clgName img {
+    width: 35%;
+    margin: 59px auto;
+}
+
+nav+h1{
+    font-size:2em;
+}
+#paraDiv p{
+    font-size: 0.8em;
+}
+
+#btnDiv button{
+    font-size: 0.6em;
+    padding: 9px 20px;
+}

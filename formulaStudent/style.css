@@ -84,10 +84,7 @@ nav+h1+h3{
     /* padding-right: 12px; */
 }
 
-h2{
-    text-align: center;
-    font-weight: bold;
-}
+
 
 #homeItem {
     margin-right: 0px;
@@ -194,87 +191,44 @@ h2{
     color: white;
 }
 
-#btn {
-    background-color: transparent;
-    border: 3px solid #232323;
-    margin-bottom: 40px;
-    padding: 1% 2.8%;
-    border-radius: 30px;
-    transition: all 0.3s ease-out;
-    margin: auto;
+.imgCrop{
+    width:50%;
+    height:50%;
+    background: url('https://upload.wikimedia.org/wikipedia/commons/e/e5/FSG_2010_GroupPicture_almonat.jpg');
 }
 
-#btn:hover {
-    background-color: #232323;
+#formulaImg {
+    width: 92%;
+    padding: 5% 0% 5% 8%;
+}
+
+#formulaImgDiv{
+    width: 43%;
+}
+.page1{
+    display: flex;
+    flex-direction: row;
+}
+#page1pDiv{
+    width: 43%;
+}
+
+#page1pDiv h1{
+    padding-top: 5%;
+}
+
+#page1pDiv button {
+    font-size: 1.3em;
+    padding: 1.8% 6%;
+    border-radius: 33px;
+    border: none;
+    background-color: #13adff;
     color: white;
-   
-}
-nav+h1{
-    color: #232323;
+    font-weight: bold;
 }
 
-#btnDiv{
-    display: flex;
-}
-
-#paraDiv{
-    text-align: center;
-    font-size: 1.5em;
-}
-#paraDiv p{
-    padding: 3% 10%;
-}
-#clgName img {
-    width: 15%;
-    margin: 59px auto;
-}
-
-/* #xps {
-    width: 30%;
-}
-#solidworks{
-    width: 30%;
-}
-#ktm {
-    width: 30%;
-}
-#chasis{
-    width: 30%;
-}
-#burnout{
-    width: 30%;
-}
-#ansys{
-    width: 40%;
-}
-#asap {
-    width: 29%;
-}
-#matlab{
-    width: 35%;
-}
-#stubborn{
-    width: 28%;
-}
-#monster{
-    width: 30%;
-}
-#ketto{
-    width: 35%;
-}*/
-#altair{
-    width: 55%;
-} 
-
-.sponsors{
-    display: flex;
-    flex-wrap: wrap;
-    margin: auto;
+#page1pDiv button:hover{
+    background-color: #0089d3;
 
 }
 
-.sponsors img{
-    margin:3%  auto;
-    padding: 0% 9%;
-    width: 40%;
-}
