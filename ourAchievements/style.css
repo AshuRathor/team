@@ -4,6 +4,28 @@
     box-sizing: border;
 }
 
+.real_show{
+    display: block;
+    opacity: 0;
+    animation:  showing 0.2s ease-out 1 forwards;
+    background-color: #232323;
+}
+
+@keyframes showing {
+    0%{
+        opacity: 0;
+        padding-top: 0px;
+    }
+    10%{
+        opacity: 7;
+        padding-top: 3px;
+    }
+    100%{
+        opacity: 10;
+        padding-top: 10px;
+    }
+}
+
 .navbar{
     /* height: 14vh; */
     background-color: #232323;
@@ -27,7 +49,7 @@
 
 .nav-item {
     /* padding-left: 3%; */
-    margin: 0 -23px 0 14px;
+    margin: 0 6px 0 11px;
 }
 /* .abt_us:hover, .cars:hover{
     color: orange;
@@ -43,9 +65,9 @@
     color: #232323;
 }
 
-.nav-link{
-    color:white;
-    width: 158px;
+.nav-link {
+    color: white;
+    width: 124px;
 }
 body{
     font-family: 'Quicksand', sans-serif;
@@ -127,6 +149,7 @@ nav+h1+h3{
 #sponsorsLink{
     width:102px;
 }
+
 
 
 

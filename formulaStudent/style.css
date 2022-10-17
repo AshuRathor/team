@@ -4,6 +4,28 @@
     box-sizing: border;
 }
 
+.real_show{
+    display: block;
+    opacity: 0;
+    animation:  showing 0.2s ease-out 1 forwards;
+    background-color: #232323;
+}
+
+@keyframes showing {
+    0%{
+        opacity: 0;
+        padding-top: 0px;
+    }
+    10%{
+        opacity: 7;
+        padding-top: 3px;
+    }
+    100%{
+        opacity: 10;
+        padding-top: 10px;
+    }
+}
+
 .navbar{
     /* height: 14vh; */
     background-color: #232323;
@@ -27,7 +49,7 @@
 
 .nav-item {
     /* padding-left: 3%; */
-    margin: 0 -23px 0 14px;
+    margin: 0 6px 0 11px;
 }
 /* .abt_us:hover, .cars:hover{
     color: orange;
@@ -43,9 +65,9 @@
     color: #232323;
 }
 
-.nav-link{
-    color:white;
-    width: 158px;
+.nav-link {
+    color: white;
+    width: 124px;
 }
 body{
     font-family: 'Quicksand', sans-serif;
@@ -130,7 +152,6 @@ nav+h1+h3{
 
 
 
-
 .footer{
     color: white;
     background-color: #111 !important;
@@ -198,7 +219,7 @@ nav+h1+h3{
 }
 
 #formulaImg {
-    width: 92%;
+    width: 540px;
     padding: 5% 0% 5% 8%;
 }
 
@@ -207,7 +228,8 @@ nav+h1+h3{
 }
 .page1{
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
+    flex-wrap: wrap;
 }
 #page1pDiv{
     width: 43%;
@@ -232,3 +254,65 @@ nav+h1+h3{
 
 }
 
+.page2 h2{
+    text-align: center;
+}
+.frst{
+    display: flex;
+    margin: auto;
+}
+.frst img{
+    margin: 0% 8%;
+}
+.speakers{
+    /* margin: auto; */
+    display: flex;
+    flex-direction: row;
+}
+
+
+.scnd{
+    display: flex;
+    margin: auto;
+}
+.scnd img{
+    margin: 0% 8%;
+}
+
+.thrd{
+    display: flex;
+    margin: auto;
+}
+.thrd img{
+    margin: 0% 8%;
+}
+
+.frth{
+    display: flex;
+    margin: auto;
+}
+.frth img{
+    margin: 0% 8%;
+}
+
+.fifth{
+    display: flex;
+    margin: auto;
+}
+.fifth img{
+    margin: 0% 8%;
+}
+
+.frst, .scnd, .thrd, .frth, .fifth {
+    padding: 3% 3%;
+    margin: 3% auto;
+    background-color: khaki;
+    width: 80%;
+    border-radius: 17px;
+    flex-wrap: wrap;
+}
+#rp1p1, #rp2p1, #rp3p1, #rp4p1, #rp5p1{
+    width: 440px;
+    padding: 3% 0% ;
+    
+}
