@@ -142,3 +142,14 @@ nav+h1+h3 {
 .rightpar5 p, h3{
     text-align: center;
 }
+
+
+
+.para{
+    padding: 0% 12%;
+    text-align: center;
+    width: 100%;
+}
+.para+img{
+    margin:5% auto;
+}
